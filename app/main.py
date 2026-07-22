@@ -18,7 +18,7 @@ def home(request: Request):
         request=request,
         name="index.html",
         context={
-            "title": "Hello World",
+            "title": "Hello World!",
             "message": "Welcome to my first FastAPI website!"
         }
     )
